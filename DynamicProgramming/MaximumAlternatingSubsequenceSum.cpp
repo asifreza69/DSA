@@ -6,7 +6,7 @@
 // - We choose a subsequence such that:
 //      even index elements are added
 //      odd index elements are subtracted
-//
+
 // - At each index we have two choices:
 //      1. Take the current element
 //      2. Skip the current element
