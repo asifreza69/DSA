@@ -1,7 +1,6 @@
 // LeetCode 787: Cheapest Flights Within K Stops
 //
-// Approach: BFS with Cost Relaxation (Level-wise Traversal)
-//
+// Approach: BFS with Cost Relaxation (Level-wise Traversal) 
 // Idea:
 // - Each BFS level represents one stop
 // - Use BFS up to k stops
