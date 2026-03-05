@@ -1,7 +1,7 @@
 // LeetCode 70: Climbing Stairs
 //
 // Approach: Bottom-Up Dynamic Programming
-//
+
 // Idea:
 // - To reach step i, we can come from:
 //      step (i-1) by taking 1 step
