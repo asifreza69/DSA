@@ -1,7 +1,7 @@
 // LeetCode 62: Unique Paths
 
 // Approach: Bottom-Up Dynamic Programming
-//
+
 // Idea:
 // - A robot starts at the top-left corner (0,0) of an m x n grid
 //   and wants to reach the bottom-right corner (m-1,n-1).
