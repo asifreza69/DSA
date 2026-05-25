@@ -62,22 +62,6 @@ A Tree is a hierarchical data structure consisting of nodes, where:
 
 ---
 
-## 📂 Folder Structure
-
-```bash
-Tree/
-│── inorder_traversal.cpp
-│── preorder_traversal.cpp
-│── postorder_traversal.cpp
-│── level_order.cpp
-│── height_of_tree.cpp
-│── diameter_of_tree.cpp
-│── lowest_common_ancestor.cpp
-│── validate_bst.cpp
-│── ...
-```
-
----
 
 ## 🧩 Problem Solving Approach
 
