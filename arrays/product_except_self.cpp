@@ -1,3 +1,25 @@
+/*
+Problem: Product of Array Except Self (LeetCode 238)
+
+Approach:
+Used prefix and suffix product technique without division.
+
+Logic:
+1. First pass:
+   - Store prefix product in ans array
+   - ans[i] = product of all elements before i
+
+2. Second pass (reverse):
+   - Maintain suffix product in variable t
+   - Multiply ans[i] with suffix product
+
+Time Complexity: O(n)
+Space Complexity: O(1) (excluding output array)
+
+Key Insight:
+Each element = (prefix product) * (suffix product)
+*/
+
 #include <vector>
 using namespace std;
 
@@ -24,24 +46,4 @@ public:
     }
 };
 
-/*
-Problem: Product of Array Except Self (LeetCode 238)
 
-Approach:
-Used prefix and suffix product technique without division.
-
-Logic:
-1. First pass:
-   - Store prefix product in ans array
-   - ans[i] = product of all elements before i
-
-2. Second pass (reverse):
-   - Maintain suffix product in variable t
-   - Multiply ans[i] with suffix product
-
-Time Complexity: O(n)
-Space Complexity: O(1) (excluding output array)
-
-Key Insight:
-Each element = (prefix product) * (suffix product)
-*/
